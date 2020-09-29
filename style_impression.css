@@ -1,0 +1,451 @@
+@font-face {
+	font-family: "Ma Police";
+	src: url('Muli/Muli-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: "Bold";
+	src: url('Muli/Muli-ExtraBold.ttf');
+}
+
+h1{
+	font-family: "Ma Police";
+	color: #FFFFFF;
+	font-size: 2.1em;
+	position : absolute;
+	top: 10px;
+	left : 300px;
+}
+
+h2{
+	font-size : 1.6em;
+	font-family: "Ma Police";
+	font-style: normal;
+}
+
+h3{
+	font-size : 1.3em;
+	font-family: "Ma Police";
+	font-style: normal;
+	color: rgb(0, 104, 128);
+}
+
+body{
+	font-family: "Ma Police";
+	margin: 0px;
+	padding: 0px;
+}
+
+/*ELEMENT DE L'EN TETE-----------------------*/
+#entete{
+	position: absolute;
+	background-color: #003e5c;
+	width: 100%;
+	height : 150px;
+	padding: 0px;
+	top: -10px;
+}
+
+.Compteur {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ZoneRecherche {
+	display: none;
+}
+
+#searchthis #search-btn:hover {
+  background-color: #000000;   /* Couleur de fond */
+  color: #FFFFFF;   /* Couleur du texte */
+}
+
+.logo{
+	display: block;
+	position: relative;
+	left: 0px;
+	top: 10px;
+}
+
+.logo2{
+	display: block;
+	position: relative;
+	left: 600px;
+	top: -217px;
+}
+
+.Plus {
+	display: none;
+}
+
+.Moins {
+	display: none;
+}
+
+/*Autres*/
+.TexteRouge{
+	color: red;
+}
+
+span.TexteRouge{
+	color: red;
+}
+
+span.TexteGras{
+	font-family: "Bold";
+}
+
+span.TexteItalique{
+	font-style: italic;
+}
+
+.LocaCEM{
+	width: 98%;
+	height: 450px;
+}
+
+/*ELEMENT DU CONTENU-----------------------*/
+#contenu{
+	position: relative;
+	height:100%;
+	text-align: justify;
+	font-size : 1.1em;
+	margin-top: 100px;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-family: "Ma Police";
+}
+
+.ImgAccueil{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*ELEMENT DU PIED DE PAGE----------------------*/
+#footer{
+	display: none;
+}
+
+.menuPied{
+	margin-top: 10px;
+}
+
+.menuPied p a{
+	padding: 20px;
+	font-size: 13px;
+	color: white;
+	text-decoration:none;
+}
+
+.menuPied p :hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+/*PARTIE FORMULAIRE DE CONTACT----------------*/
+form{
+	margin-top: 50px;
+	text-align: center;
+	
+}
+ textarea{
+	height: 150px;
+	font-family: "Ma Police";
+ }
+ 
+.form-control{
+	width: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	font-size: 18px;
+	margin-bottom: 16px;
+	font-family: "Ma Police";
+}
+
+input{
+	height: 45px;
+}
+
+form .submit{
+	background: #ffce33;
+	width: 100%;
+	height: 50px;
+	border-color: transparent;
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-top: 20px;
+}
+
+/*PARTIE MENU DEROULANT-----------------------*/
+.menu{
+	display: none;
+}
+/*Premier niveau*/
+nav{
+	width: 100%;
+	background-color: #edf1f3;
+}
+
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+	padding-left: 23.5%;
+}
+
+nav > ul::after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+
+nav > ul > li > a{
+	padding: 20px 30px;
+	color: #000;
+}
+
+nav > ul >li:hover a{
+	padding: 15px 30px 20px 30px;
+	}
+	
+nav li{
+	list-style-type: none;
+}
+
+.submenu{
+	display: none;
+}
+
+nav input[type=checkbox]{
+	display: none;
+}
+
+nav label{
+	display: none;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+/*deuxième niveau*/
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left:0px;
+	padding: 0px;
+	z-index: 1000;
+}
+ 
+.submenu li{
+	border-bottom: 1px solid #CCC;		
+}
+
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width: 200px;
+}
+
+.menu-Accessibilité:hover{
+		display: none;
+}
+
+.menu-UN:hover{
+	border-top: 5px solid #BBB;
+	background-color: RGBa(220, 220, 220, 0.15);
+}
+
+.menu-Accessibilité .submenu{
+		display: none;
+}
+
+.submenu li:hover a{
+	color: #EEE;
+/*	font-weight: bolder; Ne fonctionne pas*/
+}
+
+.menu-Accessibilité .submenu li:hover{
+		display: none;
+}
+
+nav input[type=checkbox]:checked ~ ul{
+	display: block;
+}
+
+
+
+/*ACCESSIBLILITE MOBILE---------------------------------------------------*/
+@media screen and (max-width: 1350px){
+/*SUPRESSION BARRE RECHERCHE*/
+	.ZoneRecherche{
+		display: none;
+	}
+
+	#searchthis #search-btn:hover{
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 1220px){
+/*MENU MOBILE-----------------------------------*/
+/*menu*/
+	.menu-mobile{
+		display: block;
+		color: #fff;
+		background-color: rgba(29, 197, 151, 0.97);
+		text-align: center;
+		padding: 12px 0px;
+		margin-top: 329px;
+		width: 100%;
+	}
+/*Sous menu*/
+	nav ul{
+		display: none;
+		background-color: rgba(59, 59, 59, 1)/*#595959*/;
+		padding: 0px 0px 0px 0px;
+		width: 100%;
+	}
+
+	nav ul li, nav ul li a{
+		width: 100%;
+		text-align: center;
+		color: white;
+	}
+	
+	nav ul li a, nav ul li:hover a{
+		padding: 15px 0px 15px 0px;
+		width: 100%;
+		text-align: center;
+	}
+
+	nav li:hover .submenu{
+		display: block;
+		position: static;
+	}
+
+	.menu-Accessibilité:hover{
+		display: none;
+	}
+
+	.menu-UN:hover{
+		border-top: 0px solid #BBB;
+		background-color: RGBa(220, 220, 220, 0.15);
+	}
+
+	.menu-Accessibilité .submenu{
+		display: none;
+	}
+
+/*PARTIE FORMULAIRE DE CONTACT-----------------------*/
+	form{
+		margin-top: 50px;
+		transition: all 4s ease-in-out;
+		text-align: center;
+	}
+
+	.form-control{
+		width: 100%;
+		background: transparent;
+		border: none;
+		outline: none;
+		border-bottom: 1px solid gray;
+		font-size: 18px;
+		margin-bottom: 16px;
+	}
+		
+/*AUTRE-----------------------------------------------*/
+	#contenu{
+		position: relative;
+		height:100%;
+		text-align: justify;
+		font-size : 1.1em;
+		margin-top: 150px;
+		margin-left: 2%;
+		margin-right: 2%;
+		font-family: "Ma Police";
+		z-index: 1; /*Permet de mettre en arrière le contenu*/
+	}
+	
+	#entete{
+		background-color: #003e5c;
+		height : 100px;
+		width: 100%;
+		z-index: 2; /*Permet de mettre en avant le menu*/
+	}
+
+	h1{
+		font-family: "Ma Police";
+		color: #FFFFFF;
+		font-size: 1.5em;
+		position : absolute;
+		top: 0px;
+		left : 0px;
+	}
+
+	h2{
+		font-size : 1.4em;
+		font-family: "Ma Police";
+		font-style: normal;
+	}
+
+	h3{
+		font-size : 1.3em;
+		font-family: "Ma Police";
+		font-style: normal;
+		color: rgb(0, 104, 128);
+	}
+
+	#footer{
+		position: absolute;
+		width: 100%;
+		height: 60px;
+		text-align:center;
+		background-color: #003e5c;
+	}
+	
+	.ImgAccueil{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		z-index: 1;
+	}
+
+	.menuPied{
+		margin-top: -10px;
+	}
+
+	.menuPied p a{
+		padding: 5px;
+		font-size: 13px;
+		color: white;
+		text-decoration:none;
+	}
+
+	.menuPied p :hover {
+		text-decoration: underline;
+		color: #FFFFFF;
+	}
+
+	.logo{
+		display: none;
+	}
+
+	.logo2{
+		display: none;
+	}
+}

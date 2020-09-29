@@ -1,0 +1,639 @@
+@font-face {
+	font-family: "Ma Police";
+	src: url('Muli/Muli-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: "Bold";
+	src: url('Muli/Muli-ExtraBold.ttf');
+}
+
+h1{
+	font-family: "Ma Police";
+	color: #FFF;
+	font-size: 2.1em;
+	position : absolute;
+	top: 0px;
+	left : 305px;
+}
+
+h2{
+	font-size : 2em;
+	font-family: "Ma Police";
+	text-transform: uppercase;
+}
+
+.remonterTitre h2{
+	font-size : 1.6em;
+	font-family: "Ma Police";
+	font-style: normal;	
+	position : absolute;
+	top: 24%;
+	margin-left: 10%;
+}
+
+h3{
+	font-size : 1.3em;
+	font-family: "Ma Police";
+	font-style: normal;
+	color: #ffce33;
+}
+
+body{
+	font-family: "Ma Police";
+	margin: 0px;
+	padding: 0px;
+}
+
+/*ELEMENT DE L'EN TETE-----------------------*/
+#entete{
+	position: absolute;
+	background-color: #1b1b1b;
+	width: 100%;
+	height : 60px;
+	padding: 0px;
+	top: 0px;
+}
+
+.ZoneRecherche {
+	position: relative;
+	top: -182px;
+	width: 8%;
+	background-color: #eeeeee;   /* Couleur de fond */
+	border-width: 1px; 		/* Epaisseur de la bordure  */
+	border-color: #dddddd;  /* Couleur de la bordure  */
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+} 
+
+.ZoneRecherche2 {
+	position: relative;
+	top: -183px;
+	width: 12%;
+	background-color: #eeeeee;   /* Couleur de fond */
+	border-style: solid;  /* Style de la bordure  */
+	border-width: 1px; /* Epaisseur de la bordure  */
+	border-color: #dddddd;  /* Couleur de la bordure  */
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+} 
+
+/*
+.Plus {
+	position: relative;
+	left: 820px;
+	top: -115px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.Moins {
+	position: relative;
+	left: 802px;
+	top: -115px;
+	padding-left: 10px;
+	padding-right: 40px;
+}*/
+
+.logo{
+	display: block;
+	position: relative;
+	top: 50px;
+	left: 10px;
+}
+
+/*AUTRES*/
+.TexteRouge{
+	color: red;
+}
+
+.Invisible{
+	display: none;
+}
+
+span.TexteRouge{
+	color: red;
+}
+
+span.TexteBleu{
+	color: blue;
+}
+
+span.TexteVert{
+	color: green;
+}
+
+span.TexteGras{
+	font-family: "Bold";
+}
+
+span.TexteGrasEtRouge{
+	font-family: "Bold";
+	color: red;
+}
+
+span.TexteItalique{
+	font-style: italic;
+}
+
+.PlanSite p a{
+	font-size : 1.3em;
+	font-family: "Ma Police";
+	font-style: normal;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.PlanSite p a:hover{
+	text-decoration: underline;
+	color: #ffce33;
+	cursor: pointer;
+}
+
+.PlanSiteSub li a{
+	padding: 20px;
+	font-size: 1.0em;
+	color: #37372D;
+	text-decoration: none;
+}
+
+.PlanSiteSub li a:hover{
+	text-decoration: underline;
+	color: #ffce33;
+}
+
+
+/*ELEMENT DU CONTENU-----------------------*/
+#contenu{
+	position: relative;
+	text-align: justify;
+	font-size : 1.1em;
+	margin-top: 10.5%;
+	margin-left: 13%;
+	margin-right: 13%;
+	font-family: "Ma Police";
+	margin-bottom: -5%;
+}
+
+.ImgAccueil{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12%;
+	width: 50%;
+	height: 50%;
+}
+
+
+/*ELEMENT DU PIED DE PAGE----------------------*/
+#footer{
+	position: absolute;
+	width: 100%;
+	margin-top: 150px;
+	height: 60px;
+	text-align:center;
+	background-color: #1b1b1b;
+}
+
+.ImgRetour{
+	margin-left: 230px;
+	margin-top: -2.5%;
+	position: absolute;
+}
+
+.menuPied{
+	margin-top: 10px;
+}
+
+.menuPied p a{
+	padding: 20px;
+	font-size: 13px;
+	color: white;
+	text-decoration:none;
+}
+
+.menuPied p :hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+/*PARTIE FORMULAIRE DE CONTACT----------------*/
+form{
+	transition: all 4s ease-in-out;
+	text-align: center;
+	
+}
+ textarea{
+	height: 150px;
+	font-family: "Ma Police";
+ }
+ 
+.form-control{
+	width: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	font-size: 18px;
+	margin-bottom: 16px;
+	font-family: "Ma Police";
+}
+
+.form-control_rouge{
+	width: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	font-size: 18px;
+	margin-bottom: 16px;
+	font-family: "Ma Police";
+	color: red;
+}
+
+input{
+	height: 45px;
+}
+
+form .submit{
+	background-color:#ffce33;
+	border-color: transparent;
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+form .submit:hover{
+	background: linear-gradient(90deg,#ffda66 100%,#ffce33 0);
+	cursor: pointer;
+}
+
+.btn-jaune {
+	background: #ffce33;
+	width: 100%;
+	height: 50px;
+	border-color: transparent;
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-top: 20px;
+}
+
+.btn-jaune:hover{
+	background: linear-gradient(90deg,#ffda66 100%,#ffce33 0);
+	cursor: pointer;
+}
+
+.tableCenter{
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	text-align: center;
+}
+
+/*PARTIE MENU DEROULANT-----------------------*/
+.menu{
+	margin-top: -30px;
+	width: 100%;
+	cursor: pointer;
+}
+/*Premier niveau*/
+nav{
+	width: 100%;
+	background-color: #FFF;
+}
+
+nav > ul{
+	margin: 0px;
+	padding: 10px;
+	padding-left: 29%;
+}
+
+nav li{
+	list-style-type: none;
+}
+
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+
+.submenu{
+	display: none;
+}
+
+nav input[type=checkbox]{
+	display: none;
+}
+
+nav label{
+	display: none;
+}
+
+nav > ul::after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+nav > ul > li > a{
+	padding: 20px 25px;
+	color: #000;
+}
+
+nav > ul >li:hover a{
+	padding: 15px 25px 20px 25px;
+	/*16px fonctionne pour 1 pat sur 2, 15px pour le reste...*/
+}
+	
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+/*deuxième niveau*/
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left:0px;
+	padding: 0px;
+	z-index: 1000;
+}
+ 
+.submenu li{
+	border-bottom: 1px solid #CCC;
+}
+
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #FFF;
+	font-family: "Bold";
+	width: 250px;
+}
+
+.menu-Accessibilite:hover{
+	border-top: 5px solid #ffda66;
+	background-color: RGBa(240,230,140, 0.15);
+}
+
+.menu-UN:hover{
+	border-top: 5px solid #BBB;
+	background-color: RGBa(220, 220, 220, 0.15);
+}
+
+.menu-Accessibilite .submenu{
+	border: 1px solid RGBa(220, 220, 220);
+	background-color: #1b1b1b;
+}
+
+.submenu li:hover a{
+	color: #000;
+}
+
+.menu-Accessibilite .submenu li:hover{
+	background-color: #ffda66;
+}
+
+nav input[type=checkbox]:checked ~ ul{
+	display: block;
+}
+
+
+/*ACCESSIBLILITE MOBILE---------------------------------------------------*/
+/*@media screen and (max-width: 1300px){
+
+	nav > ul > li > a{
+		padding: 20px 15px;
+		color: #000;
+	}
+
+	nav > ul >li:hover a{
+		padding: 16px 15px 20px 15px; */
+		/*16px fonctionne pour 1 pat sur 2, 15px pour le reste...*/
+	/*}
+	
+	.ImgRetour{
+		margin-left: 230px;
+		margin-top: -3.5%;
+		position: absolute;
+	}
+}*/
+
+@media screen and (max-width: 1140px){
+/*MENU MOBILE-----------------------------------*/
+/*menu*/
+	.menu-mobile{
+		display: block;
+		color: #000;
+		font-weight : bold;
+		background-color: #ffda66;
+		text-align: center;
+		padding: 12px 0px;
+		margin-top: 80px;
+		width: 100%;
+		cursor: pointer;
+	}
+	
+/*Sous menu*/
+	nav ul{
+		display: none;
+		background-color: rgba(59, 59, 59, 1)/*#595959*/;
+		padding: 0px 0px 0px 0px;
+		width: 100%;
+	}
+
+	nav ul li, nav ul li a{
+		width: 100%;
+		text-align: center;
+		color: white;
+	}
+	
+	nav ul li a, nav ul li:hover a{
+		padding: 15px 0px 15px 0px;
+		width: 100%;
+		text-align: center;
+		border-bottom: 1px solid #FFF;
+	}
+
+	nav li:hover .submenu{
+		display: block;
+		position: static;
+	}
+
+	.menu-Accessibilite:hover{
+		border-top: 0px solid #00568F;
+		background-color: RGBa(000, 112, 192, 0.15);
+	}
+
+	.menu-UN:hover{
+		border-top: 0px solid #BBB;
+		background-color: RGBa(220, 220, 220, 0.15);
+	}
+	
+	.menu-Accessibilite .submenu{
+		border: 1px solid RGBa(220, 220, 220);
+		background-color: #1b1b1b;
+	}
+
+	.submenu li:hover a{
+		color: #000;
+	}
+
+	.menu-Accessibilite .submenu li:hover{
+		background-color: #ffda66;
+	}
+
+/*PARTIE FORMULAIRE DE CONTACT-----------------------*/
+	form{
+		transition: all 4s ease-in-out;
+		text-align: center;
+	}
+
+	.form-control{
+		width: 100%;
+		background: transparent;
+		border: none;
+		outline: none;
+		border-bottom: 1px solid gray;
+		font-size: 18px;
+		margin-bottom: 16px;
+	}
+		
+/*AUTRE-----------------------------------------------*/
+	#contenu{
+		position: relative;
+		text-align: justify;
+		font-size : 1.1em;
+		margin-top: 9.5%;
+		margin-left: 2%;
+		margin-right: 2%;
+		font-family: "Ma Police";
+		z-index: 1; /*Permet de mettre en arrière le contenu*/
+	}
+	
+	#entete{
+		position: absolute;
+		background-color: #1b1b1b;
+		width: 100%;
+		padding: 0px;
+		top: 0px;
+		z-index: 2000;
+	}
+
+	h1{
+		font-family: "Ma Police";
+		color: #FFF;
+		font-size: 1.5em;
+		position : absolute;
+		top: 0px;
+		left : 10px;
+	}
+
+	h2{
+		font-size : 1.4em;
+		font-family: "Ma Police";
+		font-style: normal;
+	}
+	
+	.remonterTitre h2{
+		font-size : 1.4em;
+		font-family: "Ma Police";
+		font-style: normal;	
+		position : absolute;
+		top: 23%;
+		margin-left: 2%;
+	}
+
+	h3{
+		font-size : 1.3em;
+		font-family: "Ma Police";
+		font-style: normal;
+		color: rgb(0, 104, 128);
+	}
+	
+	.ZoneRecherche {
+		display: none;
+	}
+	
+	.ZoneRecherche2 {
+		display: none;
+	}
+
+	#footer{
+		position: absolute;
+		width: 100%;
+		margin-top: 150px;
+		height: 60px;
+		text-align:center;
+		background-color: #1b1b1b;
+	}
+	
+	.menuPied p a{
+		padding: 5px;
+		font-size: 13px;
+		color: white;
+		text-decoration:none;
+	}
+
+	.menuPied p :hover {
+		text-decoration: underline;
+		color: #FFF;
+		cursor: pointer;
+	}
+	
+	.ImgAccueil{ /*dimentionnement de toutes les images*/
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		height: 50%;
+		z-index: 1;
+	}
+
+	.ImgRetour{
+		display: none;
+	}
+	
+	.logo{
+		display: none;
+	}
+	
+	.Plus {
+		display: none;
+	}
+
+	.Moins {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 950px){
+
+	#entete{
+		background-color: #1b1b1b;
+		width: 100%;
+		z-index: 2000;
+	}
+	
+	#contenu{
+		position: relative;
+		text-align: justify;
+		font-size : 1.1em;
+		margin-top: 11.5%;
+		margin-left: 2%;
+		margin-right: 2%;
+		font-family: "Ma Police";
+		z-index: 1; /*Permet de mettre en arrière le contenu*/
+	}
+	
+}
