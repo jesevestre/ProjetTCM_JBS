@@ -14,8 +14,6 @@ Ou paramétrer le fichier à vos besoins.
 
 5. Ouvrir le navigateur en entrant l'URL suivant : http://localhost/ProjetTCM_JBS/index.php
 
-6. Créé un répertoire "FichierGenere"
-
 5.1. Exo 1 nommé import.php dans l'en-tête, exercice terminé à 100%, fichier CSV (Excel) se téléchargeant dans le répertoire de l'exercice "FichierGenere"
 
 6. Exo 2 nommé recherche.php (terminé à 90%), permet une recherche sur la base et sort un tableau en fonction de la consigne
