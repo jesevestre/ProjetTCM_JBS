@@ -5,10 +5,10 @@
 1. Commencez par cloner le projet sur votre PC avec la commande
 git clone https://github.com/jesevestre/ProjetTCM_JBS.git
 
-2. Copier le répertoire télécharger dans Wampserver au niveau du répértoire D(ou C en fonction de l'installation):\wamp64\www
-Vous pouvez testé si cela a fonctionné en ouvrant le navigateur à l'URL suivant : http://localhost/ProjetTCM_JBS/index.php
+2. Copier le répertoire téléchargé dans Wampserver au niveau du répertoire D(ou C en fonction de l'installation):\wamp64\www
+Vous pouvez tester si cela a fonctionné en ouvrant le navigateur à l'URL suivant : http://localhost/ProjetTCM_JBS/index.php
 
-3. Créé une base de données de nom "prenoms" avec les caractéristiques du fichier BDDCo.php
+3. Créer une base de données de nom "prenoms" avec les caractéristiques du fichier BDDCo.php
 Ou paramétrer le fichier à vos besoins.
 
 4. Importer le fichier prenoms.sql dans votre BDD
