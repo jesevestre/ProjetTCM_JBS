@@ -3,7 +3,7 @@
 
 
 1. Commencez par cloner le projet sur votre PC avec la commande
-git clone https://github.com/jesevestre/ProjetTCD_JBS.git
+git clone https://github.com/jesevestre/ProjetTCM_JBS.git
 
 2. Créé une base de données de nom "prenoms" avec les caractéristiques du fichier BDDCo.php
 Ou paramétrer le fichier à vos besoins.
