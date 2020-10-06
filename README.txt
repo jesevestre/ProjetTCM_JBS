@@ -6,7 +6,7 @@
 git clone https://github.com/jesevestre/ProjetTCM_JBS.git
 
 2. Copier le répertoire télécharger dans Wampserver au niveau du répértoire D(ou C en fonction de l'installation):\wamp64\www
-Vous pouvez testé si cea à fonctionner en Ouvrant le navigateur à l'URL suivant : http://localhost/ProjetTCM_JBS/index.php
+Vous pouvez testé si cela a fonctionné en ouvrant le navigateur à l'URL suivant : http://localhost/ProjetTCM_JBS/index.php
 
 3. Créé une base de données de nom "prenoms" avec les caractéristiques du fichier BDDCo.php
 Ou paramétrer le fichier à vos besoins.
