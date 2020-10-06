@@ -14,9 +14,6 @@ Ou paramétrer le fichier à vos besoins.
 4. Importer le fichier prenoms.sql dans votre BDD
 
 5. Ouvrir le navigateur en entrant l'URL suivant : http://localhost/ProjetTCM_JBS/index.php
-
-5.a) Exo 1 nommé import.php dans l'en-tête, exercice terminé à 100%, fichier CSV (Excel) se téléchargeant dans le répertoire de l'exercice "FichierGenere"
-
-5.b) Exo 2 nommé recherche.php (terminé à 90%), permet une recherche sur la base et sort un tableau en fonction de la consigne
-
-5.c) Exo 2 nommé traitement.php (non fonctionnel, soucis pour importer le fichier CSV à la BDD)
+  a) Exo 1 nommé import.php dans l'en-tête, exercice terminé à 100%, fichier CSV (Excel) se téléchargeant dans le répertoire de l'exercice "FichierGenere"
+  b) Exo 2 nommé recherche.php (terminé à 90%), permet une recherche sur la base et sort un tableau en fonction de la consigne
+  c) Exo 2 nommé traitement.php (non fonctionnel, soucis pour importer le fichier CSV à la BDD)
