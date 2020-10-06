@@ -1,0 +1,20 @@
+<FilesMatch "import.php">
+AuthName "Ceci est du contenu securise"
+AuthType Basic
+AuthUserFile "D:\wamp64\www\ProjetTCM\security\.htpasswd"
+Require valid-user
+</FilesMatch>
+
+<FilesMatch "recherche.php">
+AuthName "Ceci est du contenu securise"
+AuthType Basic
+AuthUserFile "D:\wamp64\www\ProjetTCM\security\.htpasswd"
+Require valid-user
+</FilesMatch>
+
+<FilesMatch "traitement.php">
+AuthName "Ceci est du contenu securise"
+AuthType Basic
+AuthUserFile "D:\wamp64\www\ProjetTCM\security\.htpasswd"
+Require valid-user
+</FilesMatch>
